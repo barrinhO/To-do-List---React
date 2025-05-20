@@ -8,7 +8,7 @@ export default function Button({ children, ...rest }: ButtonProps) {
   return (
     <button
       {...rest}
-      className={`bg-slate-500 text-white p-2 rounded-md ${
+      className={`bg-slate-600 text-white p-2 rounded-md ${
         rest.className ?? ""
       }`}
     >
